@@ -2895,7 +2895,8 @@ int main(int argc, char* argv[]) {
 		canvasStyle.imageRendering = "-webkit-optimize-contrast";
 		canvasStyle.imageRendering = "optimize-contrast";
 		canvasStyle.imageRendering = "crisp-edges";
-		canvasStyle.imageRendering = "pixelated";
+		// canvasStyle.imageRendering = "pixelated";
+		// this is removed for better character display 
 	);
 	if (emscripten_set_pointerlockchange_callback(NULL, NULL, true,
 	                                              em_pointerlock_callback)
